@@ -272,6 +272,35 @@ main {
     transform: rotate(-90deg);
 }
 
+.tac {
+    text-align: center;
+}
+
+.names {
+    padding: 0.7rem;
+    font-size: var(--fz-body2);
+    transition: 0.2s ease;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.placeholder {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.names:hover {
+    background-color: #eaeaea;
+}
+
+input.search {
+    padding: 0.5rem 0.5rem 0.5rem 0.3rem;
+}
+
+.json {
+    padding-bottom: 5rem;
+}
+
 @media screen and (max-width: 870px) {
     html {
         font-size: 14px;
